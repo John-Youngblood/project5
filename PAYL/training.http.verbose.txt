@@ -1,0 +1,68 @@
+Working with protocol: HTTP : in training data.
+
+	Attack data provided, as command line argument './http_artificial_profile.pcap'
+---------------------------------------------
+Smoothing Factor: 0.3
+Threshold for Mahalanobis Distance: 50
+Training the Model
+Testing the Model
+Total Number of testing samples: 10344
+Percentage of True positives: 73.288863109
+Attack Data:
+
+['cript:pcj_lnk(\'https://mya.godaddy.com/account/accountsettings/accountsettings.aspx?ci=12820\')" rel="nofollow">Customer Information</a><br><a\nhref="javascript:pcj_lnk(\'https://mya.godaddy.com/account/orderhistory/orderhistory.aspx?ci=12821\')" rel="nofollow">Order History</a><br><a\nhref="https://idp.godaddy.com/shopper_new.aspx?ci=10530&amp;spkey=GDCMNTY-P3PLCMNTYWEBB07" rel="nofollow">Create Account</a></td><td\nclass="links3 box"><b>Shopping</b><br><a\nhref="javascript:pcj_pop(\'http://www.godaddy.com/gdshop/legal_agreements/disclaimers.asp?ci=8879&amp;app_hdr=0\',\'discl\', 400, 500)" rel="nofollow">Offer Disclaimers</a><div\nclass="prel p"><div\nstyle="position:absolute; top: -15px; left: -9px; display:block; height:12px; width:9px; color:#f60; font-size:19px; font-weight:bold;" onclick="pcj_pop(\'http://www.godaddy.com/gdshop/legal_agreements/disclaimers.asp?ci=8879&amp;app_hdr=0\',\'discl\', 400, 500);"></div></div><a\nhref="http://www.godaddy.com/domains/search.aspx?ci=12822">Domain Search</a><br><a\nhref="http://www.godaddy.com/gdshop/catalog.asp?ci=8922">Product Catalog</a><br><a\nhref="http://www.godaddy.com/gdshop/wizard/start.asp?ci=10491">Product Advisor</a><br><a\nhref="http://www.godaddy.com/gdshop/gift/card.asp?ci=8788">Gift Cards</a><br><a\nhref="http://www.godaddymobile.com/?ci=12823">Go Daddy Mobile</a><br><a\nhref="http://www.godaddy.com/offers/hot-deals.as']
+--------------------------------------
+Analysing attack data, of length 1380
+Calculated distance of 83.68262751231264 is greater than the threshold of 50. It doesn't fit the model. 
+Total number of True Negatives: 100.0
+Total number of False Positives: 0.0
+
+---------------------------------------------
+Smoothing Factor: 0.3
+Threshold for Mahalanobis Distance: 60
+Training the Model
+Testing the Model
+Total Number of testing samples: 10344
+Percentage of True positives: 74.4489559165
+Attack Data:
+
+['cript:pcj_lnk(\'https://mya.godaddy.com/account/accountsettings/accountsettings.aspx?ci=12820\')" rel="nofollow">Customer Information</a><br><a\nhref="javascript:pcj_lnk(\'https://mya.godaddy.com/account/orderhistory/orderhistory.aspx?ci=12821\')" rel="nofollow">Order History</a><br><a\nhref="https://idp.godaddy.com/shopper_new.aspx?ci=10530&amp;spkey=GDCMNTY-P3PLCMNTYWEBB07" rel="nofollow">Create Account</a></td><td\nclass="links3 box"><b>Shopping</b><br><a\nhref="javascript:pcj_pop(\'http://www.godaddy.com/gdshop/legal_agreements/disclaimers.asp?ci=8879&amp;app_hdr=0\',\'discl\', 400, 500)" rel="nofollow">Offer Disclaimers</a><div\nclass="prel p"><div\nstyle="position:absolute; top: -15px; left: -9px; display:block; height:12px; width:9px; color:#f60; font-size:19px; font-weight:bold;" onclick="pcj_pop(\'http://www.godaddy.com/gdshop/legal_agreements/disclaimers.asp?ci=8879&amp;app_hdr=0\',\'discl\', 400, 500);"></div></div><a\nhref="http://www.godaddy.com/domains/search.aspx?ci=12822">Domain Search</a><br><a\nhref="http://www.godaddy.com/gdshop/catalog.asp?ci=8922">Product Catalog</a><br><a\nhref="http://www.godaddy.com/gdshop/wizard/start.asp?ci=10491">Product Advisor</a><br><a\nhref="http://www.godaddy.com/gdshop/gift/card.asp?ci=8788">Gift Cards</a><br><a\nhref="http://www.godaddymobile.com/?ci=12823">Go Daddy Mobile</a><br><a\nhref="http://www.godaddy.com/offers/hot-deals.as']
+--------------------------------------
+Analysing attack data, of length 1380
+Calculated distance of 83.68262751231264 is greater than the threshold of 60. It doesn't fit the model. 
+Total number of True Negatives: 100.0
+Total number of False Positives: 0.0
+
+---------------------------------------------
+Smoothing Factor: 0.3
+Threshold for Mahalanobis Distance: 70
+Training the Model
+Testing the Model
+Total Number of testing samples: 10344
+Percentage of True positives: 74.8066511988
+Attack Data:
+
+['cript:pcj_lnk(\'https://mya.godaddy.com/account/accountsettings/accountsettings.aspx?ci=12820\')" rel="nofollow">Customer Information</a><br><a\nhref="javascript:pcj_lnk(\'https://mya.godaddy.com/account/orderhistory/orderhistory.aspx?ci=12821\')" rel="nofollow">Order History</a><br><a\nhref="https://idp.godaddy.com/shopper_new.aspx?ci=10530&amp;spkey=GDCMNTY-P3PLCMNTYWEBB07" rel="nofollow">Create Account</a></td><td\nclass="links3 box"><b>Shopping</b><br><a\nhref="javascript:pcj_pop(\'http://www.godaddy.com/gdshop/legal_agreements/disclaimers.asp?ci=8879&amp;app_hdr=0\',\'discl\', 400, 500)" rel="nofollow">Offer Disclaimers</a><div\nclass="prel p"><div\nstyle="position:absolute; top: -15px; left: -9px; display:block; height:12px; width:9px; color:#f60; font-size:19px; font-weight:bold;" onclick="pcj_pop(\'http://www.godaddy.com/gdshop/legal_agreements/disclaimers.asp?ci=8879&amp;app_hdr=0\',\'discl\', 400, 500);"></div></div><a\nhref="http://www.godaddy.com/domains/search.aspx?ci=12822">Domain Search</a><br><a\nhref="http://www.godaddy.com/gdshop/catalog.asp?ci=8922">Product Catalog</a><br><a\nhref="http://www.godaddy.com/gdshop/wizard/start.asp?ci=10491">Product Advisor</a><br><a\nhref="http://www.godaddy.com/gdshop/gift/card.asp?ci=8788">Gift Cards</a><br><a\nhref="http://www.godaddymobile.com/?ci=12823">Go Daddy Mobile</a><br><a\nhref="http://www.godaddy.com/offers/hot-deals.as']
+--------------------------------------
+Analysing attack data, of length 1380
+Calculated distance of 83.68262751231264 is greater than the threshold of 70. It doesn't fit the model. 
+Total number of True Negatives: 100.0
+Total number of False Positives: 0.0
+
+---------------------------------------------
+Smoothing Factor: 0.3
+Threshold for Mahalanobis Distance: 80
+Training the Model
+Testing the Model
+Total Number of testing samples: 10344
+Percentage of True positives: 79.2053364269
+Attack Data:
+
+['cript:pcj_lnk(\'https://mya.godaddy.com/account/accountsettings/accountsettings.aspx?ci=12820\')" rel="nofollow">Customer Information</a><br><a\nhref="javascript:pcj_lnk(\'https://mya.godaddy.com/account/orderhistory/orderhistory.aspx?ci=12821\')" rel="nofollow">Order History</a><br><a\nhref="https://idp.godaddy.com/shopper_new.aspx?ci=10530&amp;spkey=GDCMNTY-P3PLCMNTYWEBB07" rel="nofollow">Create Account</a></td><td\nclass="links3 box"><b>Shopping</b><br><a\nhref="javascript:pcj_pop(\'http://www.godaddy.com/gdshop/legal_agreements/disclaimers.asp?ci=8879&amp;app_hdr=0\',\'discl\', 400, 500)" rel="nofollow">Offer Disclaimers</a><div\nclass="prel p"><div\nstyle="position:absolute; top: -15px; left: -9px; display:block; height:12px; width:9px; color:#f60; font-size:19px; font-weight:bold;" onclick="pcj_pop(\'http://www.godaddy.com/gdshop/legal_agreements/disclaimers.asp?ci=8879&amp;app_hdr=0\',\'discl\', 400, 500);"></div></div><a\nhref="http://www.godaddy.com/domains/search.aspx?ci=12822">Domain Search</a><br><a\nhref="http://www.godaddy.com/gdshop/catalog.asp?ci=8922">Product Catalog</a><br><a\nhref="http://www.godaddy.com/gdshop/wizard/start.asp?ci=10491">Product Advisor</a><br><a\nhref="http://www.godaddy.com/gdshop/gift/card.asp?ci=8788">Gift Cards</a><br><a\nhref="http://www.godaddymobile.com/?ci=12823">Go Daddy Mobile</a><br><a\nhref="http://www.godaddy.com/offers/hot-deals.as']
+--------------------------------------
+Analysing attack data, of length 1380
+Calculated distance of 83.68262751231264 is greater than the threshold of 80. It doesn't fit the model. 
+Total number of True Negatives: 100.0
+Total number of False Positives: 0.0
+
+---------------------------------------------

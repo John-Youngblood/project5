@@ -1,0 +1,196 @@
+Working with protocol: DNS : in training data.
+
+	Attack data provided, as command line argument './dns_artificial_profile.pcap'
+---------------------------------------------
+Smoothing Factor: 0.1
+Threshold for Mahalanobis Distance: 20
+Training the Model
+Testing the Model
+Total Number of testing samples: 19074
+Percentage of True positives: 3.21379888854
+Attack Data:
+
+['18576\\1\\0\\0\\4\\0\\0\\\\CNAME\\\x14cdn-traffic-director\xc0\x10,\\CNAME\\\ncdn-fastly\xc0\x10,\\CNAME\\\ncdn-fastly\x04krxd\x03net\x01c\nglobal-ssl\x06fastly\xc0\x15,\\A\\\x97et\xaf']
+--------------------------------------
+Analysing attack data, of length 127
+Calculated distance of 4.279921094996403 is lesser than the threshold of 20. It fits the model. 
+Total number of True Negatives: 0.0
+Total number of False Positives: 100.0
+
+---------------------------------------------
+Smoothing Factor: 0.1
+Threshold for Mahalanobis Distance: 40
+Training the Model
+Testing the Model
+Total Number of testing samples: 19074
+Percentage of True positives: 67.6260878683
+Attack Data:
+
+['18576\\1\\0\\0\\4\\0\\0\\\\CNAME\\\x14cdn-traffic-director\xc0\x10,\\CNAME\\\ncdn-fastly\xc0\x10,\\CNAME\\\ncdn-fastly\x04krxd\x03net\x01c\nglobal-ssl\x06fastly\xc0\x15,\\A\\\x97et\xaf']
+--------------------------------------
+Analysing attack data, of length 127
+Calculated distance of 4.279921094996403 is lesser than the threshold of 40. It fits the model. 
+Total number of True Negatives: 0.0
+Total number of False Positives: 100.0
+
+---------------------------------------------
+Smoothing Factor: 0.1
+Threshold for Mahalanobis Distance: 60
+Training the Model
+Testing the Model
+Total Number of testing samples: 19074
+Percentage of True positives: 86.6100450876
+Attack Data:
+
+['18576\\1\\0\\0\\4\\0\\0\\\\CNAME\\\x14cdn-traffic-director\xc0\x10,\\CNAME\\\ncdn-fastly\xc0\x10,\\CNAME\\\ncdn-fastly\x04krxd\x03net\x01c\nglobal-ssl\x06fastly\xc0\x15,\\A\\\x97et\xaf']
+--------------------------------------
+Analysing attack data, of length 127
+Calculated distance of 4.279921094996403 is lesser than the threshold of 60. It fits the model. 
+Total number of True Negatives: 0.0
+Total number of False Positives: 100.0
+
+---------------------------------------------
+Smoothing Factor: 0.1
+Threshold for Mahalanobis Distance: 80
+Training the Model
+Testing the Model
+Total Number of testing samples: 19074
+Percentage of True positives: 95.3129915068
+Attack Data:
+
+['18576\\1\\0\\0\\4\\0\\0\\\\CNAME\\\x14cdn-traffic-director\xc0\x10,\\CNAME\\\ncdn-fastly\xc0\x10,\\CNAME\\\ncdn-fastly\x04krxd\x03net\x01c\nglobal-ssl\x06fastly\xc0\x15,\\A\\\x97et\xaf']
+--------------------------------------
+Analysing attack data, of length 127
+Calculated distance of 4.279921094996403 is lesser than the threshold of 80. It fits the model. 
+Total number of True Negatives: 0.0
+Total number of False Positives: 100.0
+
+---------------------------------------------
+Smoothing Factor: 0.2
+Threshold for Mahalanobis Distance: 20
+Training the Model
+Testing the Model
+Total Number of testing samples: 19074
+Percentage of True positives: 8.93362692671
+Attack Data:
+
+['18576\\1\\0\\0\\4\\0\\0\\\\CNAME\\\x14cdn-traffic-director\xc0\x10,\\CNAME\\\ncdn-fastly\xc0\x10,\\CNAME\\\ncdn-fastly\x04krxd\x03net\x01c\nglobal-ssl\x06fastly\xc0\x15,\\A\\\x97et\xaf']
+--------------------------------------
+Analysing attack data, of length 127
+Calculated distance of 3.6543140614267147 is lesser than the threshold of 20. It fits the model. 
+Total number of True Negatives: 0.0
+Total number of False Positives: 100.0
+
+---------------------------------------------
+Smoothing Factor: 0.2
+Threshold for Mahalanobis Distance: 40
+Training the Model
+Testing the Model
+Total Number of testing samples: 19074
+Percentage of True positives: 78.29506134
+Attack Data:
+
+['18576\\1\\0\\0\\4\\0\\0\\\\CNAME\\\x14cdn-traffic-director\xc0\x10,\\CNAME\\\ncdn-fastly\xc0\x10,\\CNAME\\\ncdn-fastly\x04krxd\x03net\x01c\nglobal-ssl\x06fastly\xc0\x15,\\A\\\x97et\xaf']
+--------------------------------------
+Analysing attack data, of length 127
+Calculated distance of 3.6543140614267147 is lesser than the threshold of 40. It fits the model. 
+Total number of True Negatives: 0.0
+Total number of False Positives: 100.0
+
+---------------------------------------------
+Smoothing Factor: 0.2
+Threshold for Mahalanobis Distance: 60
+Training the Model
+Testing the Model
+Total Number of testing samples: 19074
+Percentage of True positives: 92.5081262452
+Attack Data:
+
+['18576\\1\\0\\0\\4\\0\\0\\\\CNAME\\\x14cdn-traffic-director\xc0\x10,\\CNAME\\\ncdn-fastly\xc0\x10,\\CNAME\\\ncdn-fastly\x04krxd\x03net\x01c\nglobal-ssl\x06fastly\xc0\x15,\\A\\\x97et\xaf']
+--------------------------------------
+Analysing attack data, of length 127
+Calculated distance of 3.6543140614267147 is lesser than the threshold of 60. It fits the model. 
+Total number of True Negatives: 0.0
+Total number of False Positives: 100.0
+
+---------------------------------------------
+Smoothing Factor: 0.2
+Threshold for Mahalanobis Distance: 80
+Training the Model
+Testing the Model
+Total Number of testing samples: 19074
+Percentage of True positives: 98.5058194401
+Attack Data:
+
+['18576\\1\\0\\0\\4\\0\\0\\\\CNAME\\\x14cdn-traffic-director\xc0\x10,\\CNAME\\\ncdn-fastly\xc0\x10,\\CNAME\\\ncdn-fastly\x04krxd\x03net\x01c\nglobal-ssl\x06fastly\xc0\x15,\\A\\\x97et\xaf']
+--------------------------------------
+Analysing attack data, of length 127
+Calculated distance of 3.6543140614267147 is lesser than the threshold of 80. It fits the model. 
+Total number of True Negatives: 0.0
+Total number of False Positives: 100.0
+
+---------------------------------------------
+Smoothing Factor: 0.3
+Threshold for Mahalanobis Distance: 20
+Training the Model
+Testing the Model
+Total Number of testing samples: 19074
+Percentage of True positives: 19.9486211597
+Attack Data:
+
+['18576\\1\\0\\0\\4\\0\\0\\\\CNAME\\\x14cdn-traffic-director\xc0\x10,\\CNAME\\\ncdn-fastly\xc0\x10,\\CNAME\\\ncdn-fastly\x04krxd\x03net\x01c\nglobal-ssl\x06fastly\xc0\x15,\\A\\\x97et\xaf']
+--------------------------------------
+Analysing attack data, of length 127
+Calculated distance of 3.1882756411415953 is lesser than the threshold of 20. It fits the model. 
+Total number of True Negatives: 0.0
+Total number of False Positives: 100.0
+
+---------------------------------------------
+Smoothing Factor: 0.3
+Threshold for Mahalanobis Distance: 40
+Training the Model
+Testing the Model
+Total Number of testing samples: 19074
+Percentage of True positives: 82.9191569676
+Attack Data:
+
+['18576\\1\\0\\0\\4\\0\\0\\\\CNAME\\\x14cdn-traffic-director\xc0\x10,\\CNAME\\\ncdn-fastly\xc0\x10,\\CNAME\\\ncdn-fastly\x04krxd\x03net\x01c\nglobal-ssl\x06fastly\xc0\x15,\\A\\\x97et\xaf']
+--------------------------------------
+Analysing attack data, of length 127
+Calculated distance of 3.1882756411415953 is lesser than the threshold of 40. It fits the model. 
+Total number of True Negatives: 0.0
+Total number of False Positives: 100.0
+
+---------------------------------------------
+Smoothing Factor: 0.3
+Threshold for Mahalanobis Distance: 60
+Training the Model
+Testing the Model
+Total Number of testing samples: 19074
+Percentage of True positives: 96.2094998427
+Attack Data:
+
+['18576\\1\\0\\0\\4\\0\\0\\\\CNAME\\\x14cdn-traffic-director\xc0\x10,\\CNAME\\\ncdn-fastly\xc0\x10,\\CNAME\\\ncdn-fastly\x04krxd\x03net\x01c\nglobal-ssl\x06fastly\xc0\x15,\\A\\\x97et\xaf']
+--------------------------------------
+Analysing attack data, of length 127
+Calculated distance of 3.1882756411415953 is lesser than the threshold of 60. It fits the model. 
+Total number of True Negatives: 0.0
+Total number of False Positives: 100.0
+
+---------------------------------------------
+Smoothing Factor: 0.3
+Threshold for Mahalanobis Distance: 80
+Training the Model
+Testing the Model
+Total Number of testing samples: 19074
+Percentage of True positives: 99.4547551641
+Attack Data:
+
+['18576\\1\\0\\0\\4\\0\\0\\\\CNAME\\\x14cdn-traffic-director\xc0\x10,\\CNAME\\\ncdn-fastly\xc0\x10,\\CNAME\\\ncdn-fastly\x04krxd\x03net\x01c\nglobal-ssl\x06fastly\xc0\x15,\\A\\\x97et\xaf']
+--------------------------------------
+Analysing attack data, of length 127
+Calculated distance of 3.1882756411415953 is lesser than the threshold of 80. It fits the model. 
+Total number of True Negatives: 0.0
+Total number of False Positives: 100.0
+
+---------------------------------------------

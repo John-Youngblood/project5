@@ -1,0 +1,169 @@
+Working with protocol: HTTP : in training data.
+
+	Attack data not provided, training and testing model based on pcap files in 'data/' folder alone.
+	To provide attack data, run the code as: python wrapper.py <attack-data-file-name>
+---------------------------------------------
+Smoothing Factor: 0.4
+Threshold for Mahalanobis Distance: 250
+Training the Model
+Testing the Model
+Total Number of testing samples: 10344
+Percentage of True positives: 97.815158546
+
+Exiting now
+---------------------------------------------
+Smoothing Factor: 0.4
+Threshold for Mahalanobis Distance: 300
+Training the Model
+Testing the Model
+Total Number of testing samples: 10344
+Percentage of True positives: 97.8731631864
+
+Exiting now
+---------------------------------------------
+Smoothing Factor: 0.4
+Threshold for Mahalanobis Distance: 350
+Training the Model
+Testing the Model
+Total Number of testing samples: 10344
+Percentage of True positives: 98.1341840681
+
+Exiting now
+---------------------------------------------
+Smoothing Factor: 0.4
+Threshold for Mahalanobis Distance: 400
+Training the Model
+Testing the Model
+Total Number of testing samples: 10344
+Percentage of True positives: 98.44354215
+
+Exiting now
+---------------------------------------------
+Smoothing Factor: 0.4
+Threshold for Mahalanobis Distance: 450
+Training the Model
+Testing the Model
+Total Number of testing samples: 10344
+Percentage of True positives: 98.9269141531
+
+Exiting now
+---------------------------------------------
+Smoothing Factor: 0.4
+Threshold for Mahalanobis Distance: 500
+Training the Model
+Testing the Model
+Total Number of testing samples: 10344
+Percentage of True positives: 98.9849187935
+
+Exiting now
+---------------------------------------------
+Smoothing Factor: 0.4
+Threshold for Mahalanobis Distance: 550
+Training the Model
+Testing the Model
+Total Number of testing samples: 10344
+Percentage of True positives: 98.9945862336
+
+Exiting now
+---------------------------------------------
+Smoothing Factor: 0.4
+Threshold for Mahalanobis Distance: 600
+Training the Model
+Testing the Model
+Total Number of testing samples: 10344
+Percentage of True positives: 98.9945862336
+
+Exiting now
+---------------------------------------------
+Smoothing Factor: 0.4
+Threshold for Mahalanobis Distance: 650
+Training the Model
+Testing the Model
+Total Number of testing samples: 10344
+Percentage of True positives: 99.0235885538
+
+Exiting now
+---------------------------------------------
+Smoothing Factor: 0.4
+Threshold for Mahalanobis Distance: 700
+Training the Model
+Testing the Model
+Total Number of testing samples: 10344
+Percentage of True positives: 99.3522815159
+
+Exiting now
+---------------------------------------------
+Smoothing Factor: 0.4
+Threshold for Mahalanobis Distance: 750
+Training the Model
+Testing the Model
+Total Number of testing samples: 10344
+Percentage of True positives: 99.3522815159
+
+Exiting now
+---------------------------------------------
+Smoothing Factor: 0.5
+Threshold for Mahalanobis Distance: 250
+Training the Model
+Testing the Model
+Total Number of testing samples: 10344
+Percentage of True positives: 97.8538283063
+
+Exiting now
+---------------------------------------------
+Smoothing Factor: 0.5
+Threshold for Mahalanobis Distance: 300
+Training the Model
+Testing the Model
+Total Number of testing samples: 10344
+Percentage of True positives: 97.8924980665
+
+Exiting now
+---------------------------------------------
+Smoothing Factor: 0.5
+Threshold for Mahalanobis Distance: 350
+Training the Model
+Testing the Model
+Total Number of testing samples: 10344
+Percentage of True positives: 98.1631863882
+
+Exiting now
+---------------------------------------------
+Smoothing Factor: 0.5
+Threshold for Mahalanobis Distance: 400
+Training the Model
+Testing the Model
+Total Number of testing samples: 10344
+Percentage of True positives: 98.5208816705
+
+Exiting now
+---------------------------------------------
+Smoothing Factor: 0.5
+Threshold for Mahalanobis Distance: 450
+Training the Model
+Testing the Model
+Total Number of testing samples: 10344
+Percentage of True positives: 98.9559164733
+
+Exiting now
+---------------------------------------------
+Smoothing Factor: 0.5
+Threshold for Mahalanobis Distance: 500
+Training the Model
+Testing the Model
+Total Number of testing samples: 10344
+Percentage of True positives: 98.9945862336
+
+Exiting now
+---------------------------------------------
+Smoothing Factor: 0.5
+Threshold for Mahalanobis Distance: 550
+Training the Model
+Testing the Model
+Total Number of testing samples: 10344
+Percentage of True positives: 98.9945862336
+
+Exiting now
+---------------------------------------------
+Smoothing Factor: 0.5
+Threshold for Mahalanobis Distance: 600
