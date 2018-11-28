@@ -100,7 +100,8 @@ def readPcap(fileName, mode):
                  }
 
     payload_list = []
-    f = open(fileName,"r")
+    # rb for windows
+    f = open(fileName,"rb")
     pcap = dpkt.pcap.Reader(f)
     total = 0
     for ts,buf in pcap:
@@ -249,7 +250,7 @@ def getPayloadStrings(training_protocol):
 def read_attack_data(filename):
 #This function reads the output of the polymorphic blend code (the file does not end in pcap)
 
-    listl = open(filename)
+    listl = open(filename,"rb")
     listl1 = listl.read()
     #print listl1
     return [listl1]

@@ -36,7 +36,7 @@ def getSubstitutionTable(artificial_payload, attack_payload):
 
 
 def getAttackBodyPayload(path):
-    f = open(path)
+    f = open(path,"rb")
     pcap = dpkt.pcap.Reader(f)
     for ts, buf in pcap:
         eth = dpkt.ethernet.Ethernet(buf)
@@ -48,7 +48,7 @@ def getAttackBodyPayload(path):
             return tcp.data.rstrip()
 
 def getArtificialPayload(path):
-    f = open(path)
+    f = open(path,"rb")
     pcap = dpkt.pcap.Reader(f)
     for ts, buf in pcap:
         eth = dpkt.ethernet.Ethernet(buf)

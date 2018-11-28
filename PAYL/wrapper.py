@@ -89,15 +89,15 @@ else:
     '''
 
     #Configure the parameters.
-    smoothing_factor_lower = 3
-    smoothing_factor_upper = 3
-    threshold_for_mahalanobis_lower = 50
-    threshold_for_mahalanobis_upper = 80
-    
+    smoothing_factor_lower = 4
+    smoothing_factor_upper = 4
+    threshold_for_mahalanobis_lower = 190
+    threshold_for_mahalanobis_upper = 190
+
     # this loops from smoothing_factor_lower to smoothing_factor_upper in steps of 0.1
     for smoothing_factor in range(smoothing_factor_lower, smoothing_factor_upper+1):
         for mahabs in range(threshold_for_mahalanobis_lower, threshold_for_mahalanobis_upper+1, 10):
             print 'Smoothing Factor: '+str(smoothing_factor/10.0)
             print 'Threshold for Mahalanobis Distance: '+str(mahabs)
-            analysis.train_and_test(training, test, attack_file, smoothing_factor/10.0, mahabs, verbose=True)
+            analysis.train_and_test(training, test, attack_file, smoothing_factor/10.0, mahabs, verbose="false")
             print '---------------------------------------------'

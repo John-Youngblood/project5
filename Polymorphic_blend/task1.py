@@ -42,7 +42,7 @@ if __name__ == '__main__':
 		padding(artificial_payload, raw_payload)
 
 	# Write prepared payload to Output file and test against your PAYL model
-	with open("output", "w") as result_file:
+	with open("output", "wb") as result_file:
 		result_file.write(''.join(raw_payload))
 	
 	# Write here code to generate payload.bin!
