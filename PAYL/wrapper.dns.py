@@ -89,10 +89,10 @@ else:
     '''
 
     #Configure the parameters.
-    smoothing_factor_lower = 1
+    smoothing_factor_lower = 3
     smoothing_factor_upper = 3
-    threshold_for_mahalanobis_lower = 20
-    threshold_for_mahalanobis_upper = 80
+    threshold_for_mahalanobis_lower = 75
+    threshold_for_mahalanobis_upper = 75
 
     # this loops from smoothing_factor_lower to smoothing_factor_upper in steps of 0.1
     for smoothing_factor in range(smoothing_factor_lower, smoothing_factor_upper+1):
