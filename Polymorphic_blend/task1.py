@@ -5,7 +5,7 @@ from substitution import *
 from padding import *
 
 ARTIFICIAL_PATH = "http_artificial_profile.pcap"
-ATTACKBODY_PATH = "YOUR_GTID.pcap" # replace the file name by the one you downloaded
+ATTACKBODY_PATH = "jyoungblood8.pcap" # replace the file name by the one you downloaded
 
 if __name__ == '__main__':
 	# Read in source pcap file and extract tcp payload

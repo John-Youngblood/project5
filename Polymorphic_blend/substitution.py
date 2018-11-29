@@ -28,6 +28,7 @@ def getSubstitutionTable(artificial_payload, attack_payload):
     sorted_attack_frequency = sorting(attack_frequency)
 
     # Your code here ...
+    substitution_table = {}
 
 
     # You may implement substitution table in your way. Just make sure it can be used in substitute(attack_payload, subsitution_table)
